@@ -10,15 +10,15 @@ const Stats = () => (
                     <div className="w-10/12">
                         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
                             <div className="flex flex-col items-center justify-center">
-                                <img src="https://cdn.tuk.dev/assets/templates/weCare/review_1.png" />
+                                <img alt="" src="https://cdn.tuk.dev/assets/templates/weCare/review_1.png" />
                                 <p className="text-base text-gray-800 leading-7 mt-5 text-center w-8/12">We have reached more than 1.1 million users around the globe</p>
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <img src="https://cdn.tuk.dev/assets/templates/weCare/review_2.png" />
+                                <img alt="" src="https://cdn.tuk.dev/assets/templates/weCare/review_2.png" />
                                 <p className="text-base text-gray-800 leading-7 mt-5 text-center w-8/12">We have reached more than 1.1 million users around the globe</p>
                             </div>
                             <div className="flex flex-col items-center justify-center">
-                                <img src="https://cdn.tuk.dev/assets/templates/weCare/review_3.png" />
+                                <img alt="" src="https://cdn.tuk.dev/assets/templates/weCare/review_3.png" />
                                 <p className="text-base text-gray-800 leading-7 mt-5 text-center w-8/12">We have reached more than 1.1 million users around the globe</p>
                             </div>
                         </div>

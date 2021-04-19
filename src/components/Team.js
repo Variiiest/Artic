@@ -13,7 +13,7 @@ function Team() {
                     <div className="lg:flex md:flex xl:justify-between flex-wrap md:justify-around sm:justify-around lg:justify-around pt-10">
                         <div className="xl:w-1/3 sm:w-1/2 mx-auto sm:max-w-xs mb-20 xl:max-w-sm lg:w-1/2 relative">
                             <div className="bg-top bg-cover bg-no-repeat h-64">
-                                <img src="https://cdn.tuk.dev/assets/boy-smiling_23-2148155640.jpg" alt className="h-full w-full overflow-hidden object-cover rounded shadow" />
+                                <img src="https://cdn.tuk.dev/assets/boy-smiling_23-2148155640.jpg" alt=""  className="h-full w-full overflow-hidden object-cover rounded shadow" />
                             </div>
                             <div className="py-5 bg-white flex flex-col justify-center w-11/12 mx-auto absolute rounded shadow -mt-12 right-0 left-0">
                                 <p className="text-xl text-center text-gray-800 font-normal mb-1">Andres Berlin</p>
@@ -22,7 +22,7 @@ function Team() {
                         </div>
                         <div className="xl:w-1/3 sm:w-1/2 mx-auto sm:max-w-xs mx-4 mb-20 xl:max-w-sm lg:w-1/2 relative">
                             <div className="bg-top bg-cover bg-no-repeat h-64">
-                                <img src="https://cdn.tuk.dev/assets/side-view-woman-reading-sofa_23-2148294040.jpg" alt className="h-full w-full overflow-hidden object-cover rounded shadow" />
+                                <img src="https://cdn.tuk.dev/assets/side-view-woman-reading-sofa_23-2148294040.jpg" alt=""  className="h-full w-full overflow-hidden object-cover rounded shadow" />
                             </div>
                             <div className="py-5 bg-white flex flex-col justify-center w-11/12 mx-auto absolute rounded shadow -mt-12 right-0 left-0">
                                 <p className="text-xl text-center text-gray-800 font-normal mb-1">Silene Tokyo</p>
@@ -31,7 +31,7 @@ function Team() {
                         </div>
                         <div className="xl:w-1/3 sm:w-1/2 mx-auto sm:max-w-xs mb-20 xl:max-w-sm lg:w-1/2 relative">
                             <div className="bg-top bg-cover bg-no-repeat h-64">
-                                <img src="https://cdn.tuk.dev/assets/blond-man-happy-expression_1194-2873.jpg" alt className="h-full w-full overflow-hidden object-cover rounded shadow" />
+                                <img src="https://cdn.tuk.dev/assets/blond-man-happy-expression_1194-2873.jpg" alt=""  className="h-full w-full overflow-hidden object-cover rounded shadow" />
                             </div>
                             <div className="py-5 bg-white flex flex-col justify-center w-11/12 mx-auto absolute rounded shadow -mt-12 right-0 left-0">
                                 <p className="text-xl text-center text-gray-800 font-normal mb-1">Richard Johnson</p>
