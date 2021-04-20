@@ -2,11 +2,10 @@ import './index.css'
 import './App.css';
 import Example from './components/Header';
 import Services from './components/Services';
-import Team from './components/Team';
 import Stats from './components/Case';
 import Featurs from './components/Featurs';
 import FAQ from './components/FAQ';
-import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,10 +14,9 @@ function App() {
     <Services/>
     <Featurs/>
     <Stats/>
-    <Team/>
- 
+    
    <FAQ/>
-   <Menu/>
+   <Footer/>
         </div>
   );
 }

@@ -10,7 +10,7 @@ function Featurs() {
                 <div className="mt-20 flex flex-wrap justify-between ">
                     <div className="flex sm:w-full md:w-5/12">
                         <div className="w-20 h-20 relative mr-5">
-                            <div className="absolute top-0 right-0 bg-pink-500rounded w-16 h-16 mt-2 mr-1" />
+                            <div className="absolute top-0 right-0 bg-pink-500 rounded w-16 h-16 mt-2 mr-1" />
                             <div className="absolute text-green-200 bottom-0 left-0 color1 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3 font-bold text-lg">
                       KPI
                             </div>
@@ -22,7 +22,7 @@ function Featurs() {
                     </div>
                     <div className="flex sm:w-full md:w-5/12 pb-20">
                         <div className="w-20 h-20 relative mr-5">
-                            <div className="absolute top-0 right-0 bg-pink-500rounded w-16 h-16 mt-2 mr-1" />
+                            <div className="absolute top-0 right-0 bg-pink-500 rounded w-16 h-16 mt-2 mr-1" />
                             <div className="absolute text-white bottom-0 left-0 color1 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3 text-lg font-bold">
                             <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" style={{fill: 'rgba(157, 253, 180, 1)', transform: '', msFilter: ''}}><path d="M5 3L3 3 3 21 21 21 21 19 5 19z" /><path d="M13 12.586L8.707 8.293 7.293 9.707 13 15.414 16 12.414 20.293 16.707 21.707 15.293 16 9.586z" /></svg>
                             </div>
