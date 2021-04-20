@@ -6,7 +6,7 @@ const Stats = () => (
     <div>
         <section className="px-8 xl:px-0 bg-gray-100">
             <div className="mx-auto container py-6">
-                <div className="flex flex-col lg:items-center justify-center w-full">
+                <div className="flex flex-col lg:items-center justify-center w-full pt-6">
                     <h1 className="font-semibold text-gray-800 text-3xl md:text-4xl"> Case Study</h1>
               
                 </div>
