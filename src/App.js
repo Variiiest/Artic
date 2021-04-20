@@ -17,13 +17,15 @@ function App() {
   return (
     <div className="App">
     <Example/>
+    <Featurs/>
+    <Stats/>
     <Services/>
     <Testimonials/>
     <Carousel/>
     <Team/>
-    <Stats/>
+  
     <Pricing/>
-    <Featurs/>
+  
    <BlogComp/>
    <FAQ/>
    <Radio/>

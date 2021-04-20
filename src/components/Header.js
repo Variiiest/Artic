@@ -11,7 +11,7 @@ const navigation = [
 
 export default function Example() {
   return (
-    <Popover className="relative color1 overflow-hidden">
+    <Popover className="relative overflow-hidden">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto">
@@ -26,11 +26,11 @@ export default function Example() {
                     <div className="flex items-center justify-between w-full md:w-auto">
                       <a href=".">
                       <div className="items-center flex justify-center h-12 w-12 rounded-full bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-                      <div className="h-6 w-6 rounded-full color1" aria-hidden="true" />
+                      <div className="h-6 w-6 rounded-r-full bg-white" aria-hidden="true" />
                     </div>
                       </a>
                       <div className="-mr-2 flex items-center md:hidden">
-                        <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-200 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                           <span className="sr-only">Open main menu</span>
                           <p className="h-6 w-6" aria-hidden="true">=</p>
                         </Popover.Button>
@@ -39,7 +39,7 @@ export default function Example() {
                   </div>
                   <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
                     {navigation.map((item) => (
-                      <a key={item.name} href={item.href} className="font-medium text-gray-200 hover:text-gray-100">
+                      <a key={item.name} href={item.href} className="font-medium text-gray-800 hover:text-gray-900">
                         {item.name}
                       </a>
                     ))}
@@ -76,7 +76,7 @@ export default function Example() {
                         />
                       </div>
                       <div className="-mr-2">
-                        <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center text-gray-100 hover:text-gray-200 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center text-gray-900 hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                           <span className="sr-only">Close main menu</span>
                           <p className="h-6 w-6" aria-hidden="true">X </p>
                         </Popover.Button>
@@ -87,7 +87,7 @@ export default function Example() {
                         <a
                           key={item.name}
                           href={item.href}
-                          className="block px-3 py-2 rounded-md text-base font-medium text-gray-100 hover:text-gray-100 hover:bg-gray-50"
+                          className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-gray-900 hover:bg-gray-50"
                         >
                           {item.name}
                         </a>
@@ -106,19 +106,19 @@ export default function Example() {
 
               <main className="mt-10 mx-auto max-w- px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div className="sm:text-center lg:text-left">
-                  <h1 className="text-4xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-green-100 to-blue-100 sm:text-5xl md:text-6xl">
+                  <h1 className="text-4xl tracking-tight font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-400 sm:text-5xl md:text-6xl">
                     <span className="block xl:inline">Data to enrich your</span>{' '}
-                    <span className="block  bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-red-500 xl:inline">online business</span>
+                    <span className="block bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-red-500 xl:inline">online business</span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  <p className="mt-3 text-base text-gray-800 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
                     amet fugiat veniam occaecat fugiat aliqua.
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                    <div className="rounded-md shadow">
+                    <div className="">
                       <a
                         href="."
-                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+                        className="focus:outline-none bg-white transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-600 text-indigo-600 px-6 py-2 text-sm"
                       >
                         Get started
                       </a>
@@ -126,7 +126,7 @@ export default function Example() {
                     <div className="mt-3 sm:mt-0 sm:ml-3">
                       <a
                         href="."
-                        className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
+                        className="focus:outline-none bg-white transition duration-150 ease-in-out hover:bg-gray-200 rounded border border-indigo-600 text-indigo-600 px-6 py-2 text-sm"
                       >
                         Live demo
                       </a>
@@ -143,6 +143,7 @@ export default function Example() {
               alt=""
             />
           </div>
+          
         </>
       )}
     </Popover>

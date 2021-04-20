@@ -1,13 +1,13 @@
 import React from "react";
 function Featurs() {
     return (
-        <section className="max-w-8xl mx-auto container bg-white pt-16">
+        <section className="max-w-full mx-auto container bg-gray-900 pt-16 sm:px-12 px-4">
             <div>
-                <div className="flex items-center flex-col px-4">
-                    <p className="uppercase text-lg text-center text-gray-600 leading-normal">in few easy steps</p>
-                    <h2 className="text-4xl lg:text-5xl font-extrabold text-center leading-tight text-gray-800 lg:w-7/12 md:w-9/12 pt-4">Create Beautiful Landing Pages &amp; Web Apps in a Jiffy</h2>
+                <div className="flex items-center flex-col sm:px-8 px-4">
+                    <p className="uppercase text-lg text-center text-gray-100 leading-normal">in few easy steps</p>
+                    <h2 className="text-4xl lg:text-5xl font-extrabold text-center leading-tight text-gray-100 lg:w-7/12 md:w-9/12 pt-4">Create Beautiful Landing Pages &amp; Web Apps in a Jiffy</h2>
                 </div>
-                <div className="mt-20 flex flex-wrap justify-between px-4">
+                <div className="mt-20 flex flex-wrap justify-between ">
                     <div className="flex sm:w-full md:w-5/12 pb-20">
                         <div className="w-20 h-20 relative mr-5">
                             <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
@@ -21,8 +21,8 @@ function Featurs() {
                             </div>
                         </div>
                         <div className="w-10/12">
-                            <h4 className="text-lg font-bold leading-tight text-gray-800">Ready to use components</h4>
-                            <p className="text-base text-gray-600 leading-normal pt-2">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
+                            <h4 className="text-lg font-bold leading-tight text-gray-100">Ready to use components</h4>
+                            <p className="text-base text-gray-100 leading-normal pt-2">It provides a very simple start, no need to write a lot of code, you just import it and start the primitive components and create the ones you need.</p>
                         </div>
                     </div>
                     <div className="flex sm:w-full md:w-5/12 pb-20">
@@ -37,8 +37,8 @@ function Featurs() {
                             </div>
                         </div>
                         <div className="w-10/12">
-                            <h4 className="text-lg font-bold leading-tight text-gray-800">Hight Quality UI you can reply on</h4>
-                            <p className="text-base text-gray-600 leading-normal pt-2">Modify the visual appearance of your site – including colors, fonts, margins and other style-related properties – with a sophisticated style.</p>
+                            <h4 className="text-lg font-bold leading-tight text-gray-100">Hight Quality UI you can reply on</h4>
+                            <p className="text-base text-gray-100 leading-normal pt-2">Modify the visual appearance of your site – including colors, fonts, margins and other style-related properties – with a sophisticated style.</p>
                         </div>
                     </div>
                     <div className="flex sm:w-full md:w-5/12 pb-20">
@@ -54,8 +54,8 @@ function Featurs() {
                             </div>
                         </div>
                         <div className="w-10/12">
-                            <h4 className="text-lg font-bold leading-tight text-gray-800">Coded by Developers for Developers</h4>
-                            <p className="text-base text-gray-600 leading-normal pt-2">Instead of just giving you the tools to create your own site, they offer you a list of themes you can choose from. Thus a handy product.</p>
+                            <h4 className="text-lg font-bold leading-tight text-gray-100">Coded by Developers for Developers</h4>
+                            <p className="text-base text-gray-100 leading-normal pt-2">Instead of just giving you the tools to create your own site, they offer you a list of themes you can choose from. Thus a handy product.</p>
                         </div>
                     </div>
                     <div className="flex sm:w-full md:w-5/12 pb-20">
@@ -72,8 +72,8 @@ function Featurs() {
                             </div>
                         </div>
                         <div className="w-10/12">
-                            <h4 className="text-lg font-bold leading-tight text-gray-800">The Last UI kit you’ll ever need</h4>
-                            <p className="text-base text-gray-600 leading-normal pt-2">We have chosen the bright color palettes that arouse the only positive emotions. The kit that simply assures to be loved by everyone.</p>
+                            <h4 className="text-lg font-bold leading-tight text-gray-100">The Last UI kit you’ll ever need</h4>
+                            <p className="text-base text-gray-100 leading-normal pt-2">We have chosen the bright color palettes that arouse the only positive emotions. The kit that simply assures to be loved by everyone.</p>
                         </div>
                     </div>
                 </div>
