@@ -1,6 +1,14 @@
 .color1{
-  background-color:rgb(13 ,13 ,14);
+  background-color:rgb(52, 44, 87);
 }
+.color2{
+  background-color:rgb(36, 29, 65);
+}
+
+.color3{
+  background-color: blueviolet
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
   font-family: 'Varela Round', sans-serif;
