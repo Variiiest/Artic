@@ -11,7 +11,7 @@
             Services
             </h1>
           </div>
-          <div className="mt-4 mx-8 grid grid-cols-1 gap-2 sm:grid-cols-3 ">
+          <div className="mt-4 sm:mx-8 mx-2 grid grid-cols-1 gap-2 sm:grid-cols-3 ">
             <div className="p-2 sm:p-10 cursor-pointer">
               <div className="py-4 max-w-sm rounded-2xl overflow-hidden shadow-2xl hover:bg-yellow-100 transition duration-500 bg-white">
                 <div className="space-y-10">

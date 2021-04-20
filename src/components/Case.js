@@ -4,10 +4,10 @@ import third from './images/Serv3.svg'
 
 const Stats = () => (
     <div>
-        <section className="px-8 xl:px-0 bg-gray-100">
+        <section className="xl:px-0 bg-gray-100">
             <div className="mx-auto container py-6">
-                <div className="flex flex-col lg:items-center justify-center w-full pt-6">
-                    <h1 className="font-semibold text-gray-800 text-3xl md:text-4xl"> Case Study</h1>
+                <div className="flex flex-col lg:items-center text-center justify-center w-full pt-6">
+                    <h1 className="font-semibold text-gray-800 text-3xl md:text-2xl"> Case Study</h1>
               
                 </div>
         <div className="container px-5 py-12 mx-auto">

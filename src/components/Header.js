@@ -23,12 +23,13 @@ export default function Example() {
                 >
                   <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex items-center justify-between w-full md:w-auto">
-                      <a href=".">
+                    <a href="." className="flex title-font font-medium items-center md:justify-start justify-center text-gray-100">
                       <div className="items-center flex justify-center h-10 w-10 rounded bg-red-600">
                       <div className="h-6 w-6 rounded color1" aria-hidden="true" />
                   
                     </div>
-                      </a>
+                    <span className="ml-2 text-3xl">Sigmoid</span>
+            </a>
                       <div className="-mr-2 flex items-center md:hidden">
                         <Popover.Button className=" rounded-md p-2 inline-flex items-center justify-center hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                           <span className="sr-only">Open main menu</span>
@@ -109,7 +110,7 @@ export default function Example() {
 
               <main className="mt-10 mx-auto max-w- px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <div className="sm:text-center lg:text-left">
-                  <p><span className="px-5 py-2 color2 rounded-full font-medium">What an idea | Give us idea | A heading</span></p>
+                  <p><span className="px-5 py-2 color2 rounded-full font-medium text-sm">What an idea | Give us idea</span></p>
                   <h1 className="mt-2 text-4xl tracking-wider font-extrabold  sm:text-5xl md:text-6xl">
                     <span className="block xl:inline">Easiest Solutions</span>{' '}
                     <span className="mt-2 block xl:inline">to manage Data    </span>
@@ -118,7 +119,7 @@ export default function Example() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere pharetra lacus sit amet viverra. Curabitur at ex et risus finibus tempor.
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                    <div className="">
+                    <div className="mb-8">
                       <a
                         href="."
                         className="focus:outline-none transition duration-150 ease-in-out bg-indigo-600 hover:bg-white hover:text-black px-8 py-3 text-base rounded font-medium"
